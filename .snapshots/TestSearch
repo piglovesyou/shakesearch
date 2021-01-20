@@ -1,0 +1,117 @@
+(*[]lib.SearchResult)((len=5) {
+  (lib.SearchResult) {
+    Name: (string) (len=40) "THE TRAGEDY OF HAMLET, PRINCE OF DENMARK",
+    Highlights: ([]lib.SearchResultHighlight) (len=7) {
+      (lib.SearchResultHighlight) {
+        SubContent: (string) (len=55) "._]\n\n Enter Hamlet.\n\nHAMLET.\nTo be, or not to be, that ",
+        Start: (int) 21,
+        End: (int) 34
+      },
+      (lib.SearchResultHighlight) {
+        SubContent: (string) (len=52) "able in your nature, Hamlet,\nTo give these mourning ",
+        Start: (int) 21,
+        End: (int) 31
+      },
+      (lib.SearchResultHighlight) {
+        SubContent: (string) (len=51) "UEEN.\nCame this from Hamlet to her?\n\nPOLONIUS.\nGood",
+        Start: (int) 21,
+        End: (int) 30
+      },
+      (lib.SearchResultHighlight) {
+        SubContent: (string) (len=54) "ow, ever I be wife.\n\nHAMLET.\n[_To Ophelia._] If she sh",
+        Start: (int) 21,
+        End: (int) 33
+      },
+      (lib.SearchResultHighlight) {
+        SubContent: (string) (len=54) ".\nE’en so, my lord.\n\nHAMLET.\nTo what base uses we ma",
+        Start: (int) 21,
+        End: (int) 31
+      },
+      (lib.SearchResultHighlight) {
+        SubContent: (string) (len=48) "\n\n\n\n\n\nTHE TRAGEDY OF HAMLET, PRINCE OF DENMARK\n\n",
+        Start: (int) 21,
+        End: (int) 27
+      },
+      (lib.SearchResultHighlight) {
+        SubContent: (string) (len=45) "y madness, like some ore\nAmong a mineral of m",
+        Start: (int) 21,
+        End: (int) 24
+      }
+    },
+    Score: (int) 15
+  },
+  (lib.SearchResult) {
+    Name: (string) (len=11) "THE SONNETS",
+    Highlights: ([]lib.SearchResultHighlight) (len=7) {
+      (lib.SearchResultHighlight) {
+        SubContent: (string) (len=47) "n thine.\n  This were to be new made when thou a",
+        Start: (int) 21,
+        End: (int) 26
+      },
+      (lib.SearchResultHighlight) {
+        SubContent: (string) (len=47) " live remembered not to be,\n  Die single and th",
+        Start: (int) 21,
+        End: (int) 26
+      },
+      (lib.SearchResultHighlight) {
+        SubContent: (string) (len=47) "en nature calls thee to be gone,\nWhat acceptabl",
+        Start: (int) 21,
+        End: (int) 26
+      },
+      (lib.SearchResultHighlight) {
+        SubContent: (string) (len=49) "d lives th’ executor to be.\n\n\n                 ",
+        Start: (int) 21,
+        End: (int) 26
+      },
+      (lib.SearchResultHighlight) {
+        SubContent: (string) (len=49) "art much too fair,\n  To be death’s conquest and",
+        Start: (int) 21,
+        End: (int) 26
+      },
+      (lib.SearchResultHighlight) {
+        SubContent: (string) (len=44) "\nBut thou contracted to thine own bright eye",
+        Start: (int) 21,
+        End: (int) 23
+      },
+      (lib.SearchResultHighlight) {
+        SubContent: (string) (len=46) "or else this glutton be,\n  To eat the world’",
+        Start: (int) 21,
+        End: (int) 23
+      }
+    },
+    Score: (int) 12
+  },
+  (lib.SearchResult) {
+    Name: (string) (len=25) "THE TRAGEDY OF CORIOLANUS",
+    Highlights: ([]lib.SearchResultHighlight) (len=1) {
+      (lib.SearchResultHighlight) {
+        SubContent: (string) (len=311) "nts\n    The happy man; whether defect of judgment,\n    To fail in the disposing of those chances\n    Which he was lord of; or whether nature,\n    Not to be other than one thing, not moving\n    From th' casque to th' cushion, but commanding peace\n    Even with the same austerity and garb\n    As he controll'd th",
+        Start: (int) 150,
+        End: (int) 161
+      }
+    },
+    Score: (int) 3
+  },
+  (lib.SearchResult) {
+    Name: (string) (len=38) "THE TRAGEDY OF OTHELLO, MOOR OF VENICE",
+    Highlights: ([]lib.SearchResultHighlight) (len=1) {
+      (lib.SearchResultHighlight) {
+        SubContent: (string) (len=318) "l, the fiend’s arch-mock,\nTo lip a wanton in a secure couch,\nAnd to suppose her chaste! No, let me know,\nAnd knowing what I am, I know what she shall be.\n\nOTHELLO.\nO, thou art wise, ’tis certain.\n\nIAGO.\nStand you awhile apart,\nConfine yourself but in a patient list.\nWhilst you were here o’erwhelmed with your gr",
+        Start: (int) 150,
+        End: (int) 162
+      }
+    },
+    Score: (int) 2
+  },
+  (lib.SearchResult) {
+    Name: (string) (len=27) "ALL’S WELL THAT ENDS WELL",
+    Highlights: ([]lib.SearchResultHighlight) (len=1) {
+      (lib.SearchResultHighlight) {
+        SubContent: (string) (len=309) " fetch his drum; he says he has a\nstratagem for’t. When your lordship sees the bottom of his success\nin’t, and to what metal this counterfeit lump of ore will be melted, if\nyou give him not John Drum’s entertainment, your inclining cannot be\nremoved. Here he comes.\n\n Enter Parolles.\n\nFIRST LORD.\nO, for",
+        Start: (int) 150,
+        End: (int) 153
+      }
+    },
+    Score: (int) 1
+  }
+})

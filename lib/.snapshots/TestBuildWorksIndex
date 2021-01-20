@@ -1,0 +1,222 @@
+(*[]lib.Work)((len=44) {
+  (lib.Work) {
+    name: (string) (len=11) "THE SONNETS",
+    nameOnWork: (string) (len=11) "THE SONNETS",
+    start: (int) 2786
+  },
+  (lib.Work) {
+    name: (string) (len=27) "ALL’S WELL THAT ENDS WELL",
+    nameOnWork: (string) (len=27) "ALL’S WELL THAT ENDS WELL",
+    start: (int) 101895
+  },
+  (lib.Work) {
+    name: (string) (len=35) "THE TRAGEDY OF ANTONY AND CLEOPATRA",
+    nameOnWork: (string) (len=20) "ANTONY AND CLEOPATRA",
+    start: (int) 238314
+  },
+  (lib.Work) {
+    name: (string) (len=14) "AS YOU LIKE IT",
+    nameOnWork: (string) (len=14) "AS YOU LIKE IT",
+    start: (int) 392576
+  },
+  (lib.Work) {
+    name: (string) (len=20) "THE COMEDY OF ERRORS",
+    nameOnWork: (string) (len=20) "THE COMEDY OF ERRORS",
+    start: (int) 526466
+  },
+  (lib.Work) {
+    name: (string) (len=25) "THE TRAGEDY OF CORIOLANUS",
+    nameOnWork: (string) (len=25) "THE TRAGEDY OF CORIOLANUS",
+    start: (int) 615733
+  },
+  (lib.Work) {
+    name: (string) (len=9) "CYMBELINE",
+    nameOnWork: (string) (len=9) "CYMBELINE",
+    start: (int) 794599
+  },
+  (lib.Work) {
+    name: (string) (len=40) "THE TRAGEDY OF HAMLET, PRINCE OF DENMARK",
+    nameOnWork: (string) (len=40) "THE TRAGEDY OF HAMLET, PRINCE OF DENMARK",
+    start: (int) 958763
+  },
+  (lib.Work) {
+    name: (string) (len=39) "THE FIRST PART OF KING HENRY THE FOURTH",
+    nameOnWork: (string) (len=39) "THE FIRST PART OF KING HENRY THE FOURTH",
+    start: (int) 1139364
+  },
+  (lib.Work) {
+    name: (string) (len=40) "THE SECOND PART OF KING HENRY THE FOURTH",
+    nameOnWork: (string) (len=40) "THE SECOND PART OF KING HENRY THE FOURTH",
+    start: (int) 1281272
+  },
+  (lib.Work) {
+    name: (string) (len=32) "THE LIFE OF KING HENRY THE FIFTH",
+    nameOnWork: (string) (len=32) "THE LIFE OF KING HENRY THE FIFTH",
+    start: (int) 1447198
+  },
+  (lib.Work) {
+    name: (string) (len=33) "THE FIRST PART OF HENRY THE SIXTH",
+    nameOnWork: (string) (len=33) "THE FIRST PART OF HENRY THE SIXTH",
+    start: (int) 1601113
+  },
+  (lib.Work) {
+    name: (string) (len=39) "THE SECOND PART OF KING HENRY THE SIXTH",
+    nameOnWork: (string) (len=39) "THE SECOND PART OF KING HENRY THE SIXTH",
+    start: (int) 1745595
+  },
+  (lib.Work) {
+    name: (string) (len=38) "THE THIRD PART OF KING HENRY THE SIXTH",
+    nameOnWork: (string) (len=38) "THE THIRD PART OF KING HENRY THE SIXTH",
+    start: (int) 1907594
+  },
+  (lib.Work) {
+    name: (string) (len=21) "KING HENRY THE EIGHTH",
+    nameOnWork: (string) (len=21) "KING HENRY THE EIGHTH",
+    start: (int) 2065271
+  },
+  (lib.Work) {
+    name: (string) (len=9) "KING JOHN",
+    nameOnWork: (string) (len=9) "KING JOHN",
+    start: (int) 2221545
+  },
+  (lib.Work) {
+    name: (string) (len=28) "THE TRAGEDY OF JULIUS CAESAR",
+    nameOnWork: (string) (len=28) "THE TRAGEDY OF JULIUS CAESAR",
+    start: (int) 2351784
+  },
+  (lib.Work) {
+    name: (string) (len=24) "THE TRAGEDY OF KING LEAR",
+    nameOnWork: (string) (len=24) "THE TRAGEDY OF KING LEAR",
+    start: (int) 2469653
+  },
+  (lib.Work) {
+    name: (string) (len=24) "LOVE’S LABOUR’S LOST",
+    nameOnWork: (string) (len=24) "LOVE’S LABOUR’S LOST",
+    start: (int) 2627211
+  },
+  (lib.Work) {
+    name: (string) (len=22) "THE TRAGEDY OF MACBETH",
+    nameOnWork: (string) (len=7) "MACBETH",
+    start: (int) 2765610
+  },
+  (lib.Work) {
+    name: (string) (len=19) "MEASURE FOR MEASURE",
+    nameOnWork: (string) (len=19) "MEASURE FOR MEASURE",
+    start: (int) 2871938
+  },
+  (lib.Work) {
+    name: (string) (len=22) "THE MERCHANT OF VENICE",
+    nameOnWork: (string) (len=22) "THE MERCHANT OF VENICE",
+    start: (int) 3008091
+  },
+  (lib.Work) {
+    name: (string) (len=26) "THE MERRY WIVES OF WINDSOR",
+    nameOnWork: (string) (len=26) "THE MERRY WIVES OF WINDSOR",
+    start: (int) 3130694
+  },
+  (lib.Work) {
+    name: (string) (len=27) "A MIDSUMMER NIGHT’S DREAM",
+    nameOnWork: (string) (len=27) "A MIDSUMMER NIGHT’S DREAM",
+    start: (int) 3268119
+  },
+  (lib.Work) {
+    name: (string) (len=22) "MUCH ADO ABOUT NOTHING",
+    nameOnWork: (string) (len=22) "MUCH ADO ABOUT NOTHING",
+    start: (int) 3365774
+  },
+  (lib.Work) {
+    name: (string) (len=38) "THE TRAGEDY OF OTHELLO, MOOR OF VENICE",
+    nameOnWork: (string) (len=17) "Dramatis Personæ",
+    start: (int) 3512174
+  },
+  (lib.Work) {
+    name: (string) (len=24) "PERICLES, PRINCE OF TYRE",
+    nameOnWork: (string) (len=24) "PERICLES, PRINCE OF TYRE",
+    start: (int) 3667891
+  },
+  (lib.Work) {
+    name: (string) (len=23) "KING RICHARD THE SECOND",
+    nameOnWork: (string) (len=23) "KING RICHARD THE SECOND",
+    start: (int) 3779741
+  },
+  (lib.Work) {
+    name: (string) (len=22) "KING RICHARD THE THIRD",
+    nameOnWork: (string) (len=22) "KING RICHARD THE THIRD",
+    start: (int) 3920824
+  },
+  (lib.Work) {
+    name: (string) (len=31) "THE TRAGEDY OF ROMEO AND JULIET",
+    nameOnWork: (string) (len=31) "THE TRAGEDY OF ROMEO AND JULIET",
+    start: (int) 4112044
+  },
+  (lib.Work) {
+    name: (string) (len=23) "THE TAMING OF THE SHREW",
+    nameOnWork: (string) (len=23) "THE TAMING OF THE SHREW",
+    start: (int) 4256398
+  },
+  (lib.Work) {
+    name: (string) (len=11) "THE TEMPEST",
+    nameOnWork: (string) (len=11) "THE TEMPEST",
+    start: (int) 4381627
+  },
+  (lib.Work) {
+    name: (string) (len=27) "THE LIFE OF TIMON OF ATHENS",
+    nameOnWork: (string) (len=27) "THE LIFE OF TIMON OF ATHENS",
+    start: (int) 4482015
+  },
+  (lib.Work) {
+    name: (string) (len=31) "THE TRAGEDY OF TITUS ANDRONICUS",
+    nameOnWork: (string) (len=31) "THE TRAGEDY OF TITUS ANDRONICUS",
+    start: (int) 4602109
+  },
+  (lib.Work) {
+    name: (string) (len=35) "THE HISTORY OF TROILUS AND CRESSIDA",
+    nameOnWork: (string) (len=35) "THE HISTORY OF TROILUS AND CRESSIDA",
+    start: (int) 4733039
+  },
+  (lib.Work) {
+    name: (string) (len=32) "TWELFTH NIGHT; OR, WHAT YOU WILL",
+    nameOnWork: (string) (len=32) "TWELFTH NIGHT: OR, WHAT YOU WILL",
+    start: (int) 4892768
+  },
+  (lib.Work) {
+    name: (string) (len=27) "THE TWO GENTLEMEN OF VERONA",
+    nameOnWork: (string) (len=27) "THE TWO GENTLEMEN OF VERONA",
+    start: (int) 5009714
+  },
+  (lib.Work) {
+    name: (string) (len=21) "THE TWO NOBLE KINSMEN",
+    nameOnWork: (string) (len=22) "THE TWO NOBLE KINSMEN:",
+    start: (int) 5117816
+  },
+  (lib.Work) {
+    name: (string) (len=19) "THE WINTER’S TALE",
+    nameOnWork: (string) (len=19) "THE WINTER’S TALE",
+    start: (int) 5258903
+  },
+  (lib.Work) {
+    name: (string) (len=21) "A LOVER’S COMPLAINT",
+    nameOnWork: (string) (len=21) "A LOVER’S COMPLAINT",
+    start: (int) 5405292
+  },
+  (lib.Work) {
+    name: (string) (len=22) "THE PASSIONATE PILGRIM",
+    nameOnWork: (string) (len=22) "THE PASSIONATE PILGRIM",
+    start: (int) 5420032
+  },
+  (lib.Work) {
+    name: (string) (len=26) "THE PHOENIX AND THE TURTLE",
+    nameOnWork: (string) (len=26) "THE PHOENIX AND THE TURTLE",
+    start: (int) 5428501
+  },
+  (lib.Work) {
+    name: (string) (len=19) "THE RAPE OF LUCRECE",
+    nameOnWork: (string) (len=19) "THE RAPE OF LUCRECE",
+    start: (int) 5430610
+  },
+  (lib.Work) {
+    name: (string) (len=16) "VENUS AND ADONIS",
+    nameOnWork: (string) (len=16) "VENUS AND ADONIS",
+    start: (int) 5516671
+  }
+})

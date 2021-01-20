@@ -1,24 +1,65 @@
-const Controller = {
-  search: (ev) => {
-    ev.preventDefault();
-    const form = document.getElementById("form");
-    const data = Object.fromEntries(new FormData(form));
-    const response = fetch(`/search?q=${data.query}`).then((response) => {
-      response.json().then((results) => {
-        Controller.updateTable(results);
+(() => {
+  const DOMUtils = {
+    removeChildren(n) {
+      while (n.firstChild) n.removeChild(n.firstChild);
+    },
+  };
+
+  const Controller = {
+    search: (ev) => {
+      ev.preventDefault();
+      const formData = new FormData(document.forms.form);
+      const data = Object.fromEntries(formData);
+      fetch(`/search?q=${data.query}`).then((response) => {
+        const { status } = response;
+        if (200 <= status && status <= 300) {
+          response.json().then(Controller.updateTable);
+        } else {
+          response.text().then(Controller.updateMessage);
+        }
       });
-    });
-  },
+    },
 
-  updateTable: (results) => {
-    const table = document.getElementById("table-body");
-    const rows = [];
-    for (let result of results) {
-      rows.push(`<tr>${result}<tr/>`);
-    }
-    table.innerHTML = rows;
-  },
-};
+    clearContent() {
+      const messageEl = document.getElementById('message');
+      DOMUtils.removeChildren(messageEl);
+      const tBodyEl = document.getElementById('table-body');
+      DOMUtils.removeChildren(tBodyEl);
+      return [messageEl, tBodyEl];
+    },
 
-const form = document.getElementById("form");
-form.addEventListener("submit", Controller.search);
+    updateTable: (results) => {
+      const rows = document.createDocumentFragment();
+      for (let result of results) {
+        const trEl = document.createElement('tr');
+        const tdEl = document.createElement('td');
+
+        tdEl.innerHTML = `<p>${result.Highlights.map((h) => {
+          return `<span>${h.SubContent.slice(0, h.Start)}<b>${h.SubContent.slice(
+            h.Start,
+            h.End,
+          )}</b>${h.SubContent.slice(h.End)}</span>`;
+        })}</p><h6>${result.Name}</h6>`;
+        trEl.appendChild(tdEl);
+        rows.appendChild(trEl);
+      }
+      const [messageEl, tBodyEl] = Controller.clearContent();
+
+      if (results.length) tBodyEl.appendChild(rows);
+      else messageEl.textContent = 'No result.';
+    },
+
+    updateMessage(message) {
+      const [messageEl, tBodyEl] = Controller.clearContent();
+      messageEl.textContent = message;
+    },
+  };
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const form = document.forms.form;
+    form.addEventListener('submit', Controller.search);
+    // XXX: The only purpose users visit the site is
+    // to start searching. Help focus and start typing.
+    form.elements.query.focus();
+  });
+})();

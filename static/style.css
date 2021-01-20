@@ -161,7 +161,7 @@ textarea {
 
 .clearfix::before,
 .clearfix::after {
-  content: " ";
+  content: ' ';
   display: table;
 }
 
@@ -179,10 +179,7 @@ textarea {
   /* Style adjustments for viewports that meet the condition */
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -209,20 +206,20 @@ textarea {
   }
 
   a[href]::after {
-    content: " (" attr(href) ")";
+    content: ' (' attr(href) ')';
   }
 
   abbr[title]::after {
-    content: " (" attr(title) ")";
+    content: ' (' attr(title) ')';
   }
 
   /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
-    content: "";
+  a[href^='#']::after,
+  a[href^='javascript:']::after {
+    content: '';
   }
 
   pre {
@@ -259,4 +256,40 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
+}
+
+body {
+  max-width: 600px;
+  margin: auto;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#table span::before,
+#table span::after {
+  content: '..';
+}
+#table b {
+  background-color: gold;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+#table h6 {
+  margin-top: 1em;
+}
+#form {
+  display: flex;
+}
+#form > * {
+  margin-right: 5px;
+}
+#form > :last-child {
+  margin-right: 0;
+}
+#query {
+  flex: 1;
 }

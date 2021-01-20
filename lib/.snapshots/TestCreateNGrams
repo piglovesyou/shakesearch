@@ -1,0 +1,33 @@
+([]string) (len=10) {
+  (string) (len=2) "To",
+  (string) (len=2) "be",
+  (string) (len=2) "or",
+  (string) (len=3) "not",
+  (string) (len=2) "to",
+  (string) (len=2) "be",
+  (string) (len=4) "that",
+  (string) (len=2) "is",
+  (string) (len=3) "the",
+  (string) (len=8) "question"
+}
+([]string) (len=9) {
+  (string) (len=5) "To be",
+  (string) (len=5) "be or",
+  (string) (len=6) "or not",
+  (string) (len=6) "not to",
+  (string) (len=5) "to be",
+  (string) (len=7) "be that",
+  (string) (len=7) "that is",
+  (string) (len=6) "is the",
+  (string) (len=12) "the question"
+}
+([]string) (len=8) {
+  (string) (len=8) "To be or",
+  (string) (len=9) "be or not",
+  (string) (len=9) "or not to",
+  (string) (len=9) "not to be",
+  (string) (len=10) "to be that",
+  (string) (len=10) "be that is",
+  (string) (len=11) "that is the",
+  (string) (len=15) "is the question"
+}
