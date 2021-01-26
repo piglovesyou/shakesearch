@@ -23,7 +23,7 @@
         End: (int) 33
       },
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=54) ".\nE’en so, my lord.\n\nHAMLET.\nTo what base uses we ma",
+        SubContent: (string) (len=52) "E’en so, my lord.\n\nHAMLET.\nTo what base uses we ma",
         Start: (int) 21,
         End: (int) 31
       },
@@ -38,7 +38,7 @@
         End: (int) 24
       }
     },
-    Score: (int) 15
+    Score: (int) 16
   },
   (lib.SearchResult) {
     Name: (string) (len=11) "THE SONNETS",
@@ -59,12 +59,12 @@
         End: (int) 26
       },
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=49) "d lives th’ executor to be.\n\n\n                 ",
+        SubContent: (string) (len=47) "lives th’ executor to be.\n\n\n                 ",
         Start: (int) 21,
         End: (int) 26
       },
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=49) "art much too fair,\n  To be death’s conquest and",
+        SubContent: (string) (len=47) "art much too fair,\n  To be death’s conquest a",
         Start: (int) 21,
         End: (int) 26
       },
@@ -74,7 +74,7 @@
         End: (int) 23
       },
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=46) "or else this glutton be,\n  To eat the world’",
+        SubContent: (string) (len=44) "or else this glutton be,\n  To eat the world\xe2",
         Start: (int) 21,
         End: (int) 23
       }
@@ -90,13 +90,13 @@
         End: (int) 161
       }
     },
-    Score: (int) 3
+    Score: (int) 4
   },
   (lib.SearchResult) {
     Name: (string) (len=38) "THE TRAGEDY OF OTHELLO, MOOR OF VENICE",
     Highlights: ([]lib.SearchResultHighlight) (len=1) {
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=318) "l, the fiend’s arch-mock,\nTo lip a wanton in a secure couch,\nAnd to suppose her chaste! No, let me know,\nAnd knowing what I am, I know what she shall be.\n\nOTHELLO.\nO, thou art wise, ’tis certain.\n\nIAGO.\nStand you awhile apart,\nConfine yourself but in a patient list.\nWhilst you were here o’erwhelmed with your gr",
+        SubContent: (string) (len=312) " the fiend’s arch-mock,\nTo lip a wanton in a secure couch,\nAnd to suppose her chaste! No, let me know,\nAnd knowing what I am, I know what she shall be.\n\nOTHELLO.\nO, thou art wise, ’tis certain.\n\nIAGO.\nStand you awhile apart,\nConfine yourself but in a patient list.\nWhilst you were here o’erwhelmed with you",
         Start: (int) 150,
         End: (int) 162
       }
@@ -107,7 +107,7 @@
     Name: (string) (len=27) "ALL’S WELL THAT ENDS WELL",
     Highlights: ([]lib.SearchResultHighlight) (len=1) {
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=309) " fetch his drum; he says he has a\nstratagem for’t. When your lordship sees the bottom of his success\nin’t, and to what metal this counterfeit lump of ore will be melted, if\nyou give him not John Drum’s entertainment, your inclining cannot be\nremoved. Here he comes.\n\n Enter Parolles.\n\nFIRST LORD.\nO, for",
+        SubContent: (string) (len=303) "ch his drum; he says he has a\nstratagem for’t. When your lordship sees the bottom of his success\nin’t, and to what metal this counterfeit lump of ore will be melted, if\nyou give him not John Drum’s entertainment, your inclining cannot be\nremoved. Here he comes.\n\n Enter Parolles.\n\nFIRST LORD.\nO, f",
         Start: (int) 150,
         End: (int) 153
       }

@@ -8,7 +8,7 @@ import (
 func TestSearch(t *testing.T) {
 	s := Searcher{}
 
-	err := s.Load("completeworks.txt")
+	err := s.Load("../completeworks.txt")
 	if err != nil {
 		t.Fatal(err)
 	}

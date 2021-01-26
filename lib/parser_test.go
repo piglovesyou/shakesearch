@@ -7,7 +7,7 @@ import (
 )
 
 func TestParseTitles(t *testing.T) {
-	content, _ := LoadContent("completeworks.txt")
+	content, _ := LoadContent("../completeworks.txt")
 	titles := ParseTitles(content, 0, &[]string{})
 	cupaloy.SnapshotT(t, titles)
 }
