@@ -15,9 +15,9 @@ type Searcher struct {
 }
 
 type SearchResultHighlight struct {
-	SubContent string
-	Start      int
-	End        int
+	SubContentBefore string
+	Token            string
+	SubContentAfter  string
 }
 
 type SearchResult struct {
@@ -44,8 +44,8 @@ func (s *Searcher) Load(filename string) error {
 	s.WorksIndex = worksIndex
 
 	nGramRules := []*NGramRule{}
-	nGramRules = append(nGramRules, &NGramRule{"trigram", &NGramMap{}, 3, 4, nil})
-	nGramRules = append(nGramRules, &NGramRule{"bigram", &NGramMap{}, 2, 2, nil})
+	nGramRules = append(nGramRules, &NGramRule{"trigram", &NGramMap{}, 3, 8, nil})
+	nGramRules = append(nGramRules, &NGramRule{"bigram", &NGramMap{}, 2, 4, nil})
 	nGramRules = append(nGramRules, &NGramRule{"unigram", &NGramMap{}, 1, 1, nil})
 	for wIndex, work := range *worksIndex {
 		wStart := work.start
@@ -97,6 +97,7 @@ func Min(a, b int) int {
 
 func (s *Searcher) FinalizeSearchResults(m *SearchResultMap) *[]SearchResult {
 	results := []SearchResult{}
+	completeWorks := *s.CompleteWorks
 	for workIndex, searchResult := range *m {
 		poss := searchResult.poss
 		work := (*s.WorksIndex)[workIndex]
@@ -104,12 +105,11 @@ func (s *Searcher) FinalizeSearchResults(m *SearchResultMap) *[]SearchResult {
 		highlights := []SearchResultHighlight{}
 		for _, pos := range *poss {
 			offsetStart := Max(pos.start-offsetLen, 0)
-			offsetEnd := Min(pos.end+offsetLen, len(*s.CompleteWorks))
-			subContent := string((*s.CompleteWorks)[offsetStart:offsetEnd])
+			offsetEnd := Min(pos.end+offsetLen, len(completeWorks))
 			highlights = append(highlights, SearchResultHighlight{
-				SubContent: subContent,
-				Start:      offsetLen,
-				End:        offsetLen + (pos.end - pos.start),
+				completeWorks[offsetStart:pos.start],
+				completeWorks[pos.start:pos.end],
+				completeWorks[pos.end:offsetEnd],
 			})
 		}
 		results = append(results, SearchResult{

@@ -3,113 +3,113 @@
     Name: (string) (len=40) "THE TRAGEDY OF HAMLET, PRINCE OF DENMARK",
     Highlights: ([]lib.SearchResultHighlight) (len=7) {
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=55) "._]\n\n Enter Hamlet.\n\nHAMLET.\nTo be, or not to be, that ",
-        Start: (int) 21,
-        End: (int) 34
+        SubContentBefore: (string) (len=21) "._]\n\n Enter Hamlet.\n\n",
+        Token: (string) (len=13) "HAMLET.\nTo be",
+        SubContentAfter: (string) (len=21) ", or not to be, that "
       },
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=52) "able in your nature, Hamlet,\nTo give these mourning ",
-        Start: (int) 21,
-        End: (int) 31
+        SubContentBefore: (string) (len=21) "able in your nature, ",
+        Token: (string) (len=10) "Hamlet,\nTo",
+        SubContentAfter: (string) (len=21) " give these mourning "
       },
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=51) "UEEN.\nCame this from Hamlet to her?\n\nPOLONIUS.\nGood",
-        Start: (int) 21,
-        End: (int) 30
+        SubContentBefore: (string) (len=21) "UEEN.\nCame this from ",
+        Token: (string) (len=9) "Hamlet to",
+        SubContentAfter: (string) (len=21) " her?\n\nPOLONIUS.\nGood"
       },
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=54) "ow, ever I be wife.\n\nHAMLET.\n[_To Ophelia._] If she sh",
-        Start: (int) 21,
-        End: (int) 33
+        SubContentBefore: (string) (len=21) "ow, ever I be wife.\n\n",
+        Token: (string) (len=12) "HAMLET.\n[_To",
+        SubContentAfter: (string) (len=21) " Ophelia._] If she sh"
       },
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=52) "E’en so, my lord.\n\nHAMLET.\nTo what base uses we ma",
-        Start: (int) 21,
-        End: (int) 31
+        SubContentBefore: (string) (len=21) "E’en so, my lord.\n\n",
+        Token: (string) (len=10) "HAMLET.\nTo",
+        SubContentAfter: (string) (len=21) " what base uses we ma"
       },
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=48) "\n\n\n\n\n\nTHE TRAGEDY OF HAMLET, PRINCE OF DENMARK\n\n",
-        Start: (int) 21,
-        End: (int) 27
+        SubContentBefore: (string) (len=21) "\n\n\n\n\n\nTHE TRAGEDY OF ",
+        Token: (string) (len=6) "HAMLET",
+        SubContentAfter: (string) (len=21) ", PRINCE OF DENMARK\n\n"
       },
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=45) "y madness, like some ore\nAmong a mineral of m",
-        Start: (int) 21,
-        End: (int) 24
+        SubContentBefore: (string) (len=21) "y madness, like some ",
+        Token: (string) (len=3) "ore",
+        SubContentAfter: (string) (len=21) "\nAmong a mineral of m"
       }
     },
-    Score: (int) 16
+    Score: (int) 30
   },
   (lib.SearchResult) {
     Name: (string) (len=11) "THE SONNETS",
     Highlights: ([]lib.SearchResultHighlight) (len=7) {
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=47) "n thine.\n  This were to be new made when thou a",
-        Start: (int) 21,
-        End: (int) 26
+        SubContentBefore: (string) (len=21) "n thine.\n  This were ",
+        Token: (string) (len=5) "to be",
+        SubContentAfter: (string) (len=21) " new made when thou a"
       },
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=47) " live remembered not to be,\n  Die single and th",
-        Start: (int) 21,
-        End: (int) 26
+        SubContentBefore: (string) (len=21) " live remembered not ",
+        Token: (string) (len=5) "to be",
+        SubContentAfter: (string) (len=21) ",\n  Die single and th"
       },
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=47) "en nature calls thee to be gone,\nWhat acceptabl",
-        Start: (int) 21,
-        End: (int) 26
+        SubContentBefore: (string) (len=21) "en nature calls thee ",
+        Token: (string) (len=5) "to be",
+        SubContentAfter: (string) (len=21) " gone,\nWhat acceptabl"
       },
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=47) "lives th’ executor to be.\n\n\n                 ",
-        Start: (int) 21,
-        End: (int) 26
+        SubContentBefore: (string) (len=21) "lives th’ executor ",
+        Token: (string) (len=5) "to be",
+        SubContentAfter: (string) (len=21) ".\n\n\n                 "
       },
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=47) "art much too fair,\n  To be death’s conquest a",
-        Start: (int) 21,
-        End: (int) 26
+        SubContentBefore: (string) (len=21) "art much too fair,\n  ",
+        Token: (string) (len=5) "To be",
+        SubContentAfter: (string) (len=21) " death’s conquest a"
       },
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=44) "\nBut thou contracted to thine own bright eye",
-        Start: (int) 21,
-        End: (int) 23
+        SubContentBefore: (string) (len=21) "\nBut thou contracted ",
+        Token: (string) (len=2) "to",
+        SubContentAfter: (string) (len=21) " thine own bright eye"
       },
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=44) "or else this glutton be,\n  To eat the world\xe2",
-        Start: (int) 21,
-        End: (int) 23
+        SubContentBefore: (string) (len=21) "or else this glutton ",
+        Token: (string) (len=2) "be",
+        SubContentAfter: (string) (len=21) ",\n  To eat the world\xe2"
       }
     },
-    Score: (int) 12
+    Score: (int) 22
   },
   (lib.SearchResult) {
     Name: (string) (len=25) "THE TRAGEDY OF CORIOLANUS",
     Highlights: ([]lib.SearchResultHighlight) (len=1) {
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=311) "nts\n    The happy man; whether defect of judgment,\n    To fail in the disposing of those chances\n    Which he was lord of; or whether nature,\n    Not to be other than one thing, not moving\n    From th' casque to th' cushion, but commanding peace\n    Even with the same austerity and garb\n    As he controll'd th",
-        Start: (int) 150,
-        End: (int) 161
+        SubContentBefore: (string) (len=150) "nts\n    The happy man; whether defect of judgment,\n    To fail in the disposing of those chances\n    Which he was lord of; or whether nature,\n    Not ",
+        Token: (string) (len=11) "to be other",
+        SubContentAfter: (string) (len=150) " than one thing, not moving\n    From th' casque to th' cushion, but commanding peace\n    Even with the same austerity and garb\n    As he controll'd th"
       }
     },
-    Score: (int) 4
+    Score: (int) 8
   },
   (lib.SearchResult) {
     Name: (string) (len=38) "THE TRAGEDY OF OTHELLO, MOOR OF VENICE",
     Highlights: ([]lib.SearchResultHighlight) (len=1) {
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=312) " the fiend’s arch-mock,\nTo lip a wanton in a secure couch,\nAnd to suppose her chaste! No, let me know,\nAnd knowing what I am, I know what she shall be.\n\nOTHELLO.\nO, thou art wise, ’tis certain.\n\nIAGO.\nStand you awhile apart,\nConfine yourself but in a patient list.\nWhilst you were here o’erwhelmed with you",
-        Start: (int) 150,
-        End: (int) 162
+        SubContentBefore: (string) (len=150) " the fiend’s arch-mock,\nTo lip a wanton in a secure couch,\nAnd to suppose her chaste! No, let me know,\nAnd knowing what I am, I know what she shall ",
+        Token: (string) (len=12) "be.\n\nOTHELLO",
+        SubContentAfter: (string) (len=150) ".\nO, thou art wise, ’tis certain.\n\nIAGO.\nStand you awhile apart,\nConfine yourself but in a patient list.\nWhilst you were here o’erwhelmed with you"
       }
     },
-    Score: (int) 2
+    Score: (int) 4
   },
   (lib.SearchResult) {
     Name: (string) (len=27) "ALL’S WELL THAT ENDS WELL",
     Highlights: ([]lib.SearchResultHighlight) (len=1) {
       (lib.SearchResultHighlight) {
-        SubContent: (string) (len=303) "ch his drum; he says he has a\nstratagem for’t. When your lordship sees the bottom of his success\nin’t, and to what metal this counterfeit lump of ore will be melted, if\nyou give him not John Drum’s entertainment, your inclining cannot be\nremoved. Here he comes.\n\n Enter Parolles.\n\nFIRST LORD.\nO, f",
-        Start: (int) 150,
-        End: (int) 153
+        SubContentBefore: (string) (len=150) "ch his drum; he says he has a\nstratagem for’t. When your lordship sees the bottom of his success\nin’t, and to what metal this counterfeit lump of ",
+        Token: (string) (len=3) "ore",
+        SubContentAfter: (string) (len=150) " will be melted, if\nyou give him not John Drum’s entertainment, your inclining cannot be\nremoved. Here he comes.\n\n Enter Parolles.\n\nFIRST LORD.\nO, f"
       }
     },
     Score: (int) 1

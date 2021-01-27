@@ -35,10 +35,7 @@
         const tdEl = document.createElement('td');
 
         tdEl.innerHTML = `<p>${result.Highlights.map((h) => {
-          return `<span>${h.SubContent.slice(0, h.Start)}<b>${h.SubContent.slice(
-            h.Start,
-            h.End,
-          )}</b>${h.SubContent.slice(h.End)}</span>`;
+          return `<span>${h.SubContentBefore}<b>${h.Token}</b>${h.SubContentAfter}</span>`;
         })}</p><h6>${result.Name}</h6>`;
         trEl.appendChild(tdEl);
         rows.appendChild(trEl);
